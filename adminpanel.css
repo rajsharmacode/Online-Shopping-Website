@@ -1,0 +1,271 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color:aqua;
+}
+/* #navbar{
+    height: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    align-items: center;
+    position: fixed;
+    background-color: #232F3E;
+}
+#navbar a{
+    text-transform: uppercase;
+    color: aliceblue;
+    text-decoration: none;
+}
+#navbar a:hover{
+    padding: 10px;
+    border: 1px solid white;
+} */
+
+#page1{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#productinsertbox{
+    margin-top: 100px;
+    height: 75vmin;
+    width: 50%;
+    display: flex;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: aliceblue;
+    flex-direction: column;
+    gap: 15px;
+}
+#productinsertbox h2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 33px;
+    text-transform: uppercase;
+}
+#productinsertbox p{
+    width: 100%;
+    font-size: 25px;
+}
+#productinsertbox .input1{
+    width: 100%;
+    height: 35px;
+    padding: 10px;
+    border: 1px solid black;
+}
+#ffile{
+    width: 100%;
+    height: 30px;
+    border: 1px solid black;
+    padding: 4px;
+}
+#productinsertbox select{
+    height: 30px;
+    width: 100%;
+
+}
+#productinsertbox button{
+    height: 55px;
+    margin-top: 10px;
+    font-size: larger;
+    background-color: blueviolet;
+    color: aliceblue;
+    cursor: pointer;
+    border-radius: 5px;
+}
+/* ####################################  page 2 */
+
+#page2{
+    min-height: 100%;
+    width: 100%;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+
+}
+#page2 table{
+    margin-top: 160px;
+    margin-bottom: 30px;
+    background-color: white;
+    width: 60%;
+    height: min-content;
+    border-collapse: collapse;
+    
+}
+#page2 table tr td,th{
+    background-color: white;
+    padding: 20px;
+    border: 1px solid black;
+}
+#page2 table tr th{
+    background-color: #232F3E;
+    text-transform: uppercase;
+    color: aliceblue;
+    border: 1px solid black;
+}
+#page2 table tr td div{
+    height: 100px;
+    width: 100px;
+}
+#page2 table tr td div img{
+    height: 100%;
+    width: 100%;
+    background-color: rebeccapurple;
+}
+#page2 table tr td p{
+    font-size: 25px;
+}
+#page2 table tr td button{
+    padding: 10px 15px 10px 15px;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+}
+/* #footer{
+    position: relative;
+    bottom: 0px;
+    height: 40px;
+    background-color: #232F3E;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    text-transform: capitalize;
+    font-size: small;
+    word-spacing: 5px;
+    align-items: center;
+}
+#toastmsg{
+    height: 40px;
+    min-width: 200px;
+    padding: 5px 13px 5px 13px;
+    position: relative;
+    color: black;
+    background-color:aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    opacity: 0;
+    left: 50%;
+    top: 80%;
+    z-index: 990;
+    transform: translateX(-50%);
+    box-shadow: 5px 5px 10px gray;    ;
+    border: 1px solid red;
+} */
+#navbar{
+    position: fixed;
+    width: 100%;
+    height: min-content;
+    display: flex;
+    flex-direction: column;
+}
+ 
+
+#navbarsec-1{
+    height: 70px;
+    width: 100%;
+    background-color: #131921;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+#navright{
+    height: 100%;
+    width: 300px;
+    display: flex;
+    padding-left: 20px;
+    align-items: center;
+}
+#navright img{
+    height: 40px;
+    line-height: 55px;
+    width: 40px;
+}
+#navright h3{
+    font-size: 27px;
+    padding-left: 20px;
+    color: aliceblue;
+}
+#navleft{
+    display:flex;
+    justify-content: end;
+    gap: 20px;
+    margin-right: 20px;    
+}
+#navleft li{
+    
+    text-transform: capitalize;
+    list-style: none;
+    color: aliceblue;
+}
+#navbarsec-2{
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #232F3E;
+}
+#navbarsec-2 a{
+    text-decoration: none;
+    color: aliceblue;
+}
+#navbarsec-2 ul li{
+    width: 150px;
+}
+#navbarsec-2 ul li:hover{
+    padding: 5px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    border: 1px solid white;
+}
+#navbarsec-2 ul{
+    color: aliceblue;
+    display: flex;
+    height: 100%;
+    margin-left: 20px;
+    width: min-content;
+    text-transform: uppercase;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    list-style: none;
+}
+#searchsec{
+    display: flex;
+    line-height: 45px;
+    margin-right: 20px;
+    align-items: center;
+}
+#searchsec input{
+    height: 60%;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    min-width: 240px;
+    padding: 3px;
+}
+#searchsec button{
+    height: 60%;
+    width: 100px;
+    color: aliceblue;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: blueviolet;
+
+}
+#maincontainer{
+    height: min-content;
+    width: 100%;
+    background-color: rgba(169, 215, 255, 0.308);
+}  

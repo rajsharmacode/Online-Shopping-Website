@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color:aqua;
+}
+/* #navbar{
+    height: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    align-items: center;
+    position: fixed;
+    background-color: #232F3E;
+}
+#navbar a{
+    text-transform: uppercase;
+    color: aliceblue;
+    text-decoration: none;
+}
+#navbar a:hover{
+    padding: 10px;
+    border: 1px solid white;
+} */
+
+#page1{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#productinsertbox{
+    margin-top: 10px;
+    height: 75vmin;
+    width: 50%;
+    display: flex;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: aliceblue;
+    flex-direction: column;
+    gap: 15px;
+}
+#productinsertbox h2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 33px;
+    text-transform: uppercase;
+}
+#productinsertbox p{
+    width: 100%;
+    font-size: 25px;
+}
+#productinsertbox .input1{
+    width: 100%;
+    height: 35px;
+    padding: 10px;
+    border: 1px solid black;
+}
+#ffile{
+    width: 100%;
+    height: 30px;
+    border: 1px solid black;
+    padding: 4px;
+}
+#productinsertbox select{
+    height: 30px;
+    width: 100%;
+
+}
+#productinsertbox button{
+    height: 55px;
+    margin-top: 10px;
+    font-size: larger;
+    background-color: blueviolet;
+    color: aliceblue;
+    cursor: pointer;
+    border-radius: 5px;
+}
